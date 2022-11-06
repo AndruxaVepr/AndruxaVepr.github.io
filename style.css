@@ -1,0 +1,40 @@
+body{background-image: url(city.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+align-items: center;
+justify-content: center;
+height: 100vh;
+font-family: 'Roboto';
+}
+.up{text-align: center;
+    color:#E2E2E2 ;
+    font-size: 30px;
+}
+h1{color:#E2E2E2;
+font-size: 70px;}
+div{
+    display: flex;
+}
+footer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+p{
+    color: #E2E2E2;
+    font-size: 40px;
+}
+.weather-block{
+    display: flex;
+    flex-direction: column;
+    background-color: #114a94;
+    width: 8rem;
+    height: auto;
+    position: relative;
+    align-items: center;
+    border-radius: 40px;
+    top: 300px;
+}
+.boximg{
+    width: 50px;
+}
